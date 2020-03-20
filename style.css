@@ -66,8 +66,9 @@ box-shadow: var(--bs);
 }
 /*button*/
 .btn{
-    display:nline-block;
+    display:inline-block;
     padding:.5em 2.5em;
+    margin:3em;
     background-color:var(--clr-accent);
     color:var(--clr-dark);
     text-decoration:none;
@@ -165,7 +166,7 @@ intro{
 }
 .section__title--services{
     color: var(--clr-accent);
-    position: relavtive;
+    position: relative;
 }
 .section__title--services::after{
     content:'';
